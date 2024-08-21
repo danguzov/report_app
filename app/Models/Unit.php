@@ -11,7 +11,8 @@ class Unit extends Model
 
     protected $fillable = [
         'unit_number',
-        'unit_name'
+        'unit_name',
+        'theme_id'
     ];
 
     public function theme()

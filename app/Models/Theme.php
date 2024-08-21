@@ -11,7 +11,7 @@ class Theme extends Model
 
     protected $fillable = [
         'theme_number',
-        'name'
+        'theme_name'
         ];
 
     public function units()

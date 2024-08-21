@@ -13,8 +13,8 @@ return new class extends Migration
     {
         Schema::create('themes', function (Blueprint $table) {
             $table->id();
-            $table->integer('theme_number')->unsigned();
-            $table->string('name')->nullable();
+            $table->integer('theme_number');
+            $table->string('theme_name');
             $table->timestamps();
         });
     }
